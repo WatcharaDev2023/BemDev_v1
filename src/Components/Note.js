@@ -1,0 +1,51 @@
+import "./Note.css";
+import Button from "./Button";
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import Typography from "@mui/material/Typography";
+// import Button from "@mui/material/Button";
+import Container from "@mui/material/Container";
+import Paper from "@mui/material/Paper";
+import Box from "@mui/material/Box";
+import Table from "@mui/material/Table";
+import TableBody from "@mui/material/TableBody";
+import TableCell from "@mui/material/TableCell";
+import TableContainer from "@mui/material/TableContainer";
+import TableHead from "@mui/material/TableHead";
+import TableRow from "@mui/material/TableRow";
+import Avatar from "@mui/material/Avatar";
+import ButtonGroup from "@mui/material/ButtonGroup";
+import { Link } from "react-router-dom";
+
+import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
+import DeleteIcon from "@material-ui/icons/Delete";
+import CloudUploadIcon from "@material-ui/icons/CloudUpload";
+import KeyboardVoiceIcon from "@material-ui/icons/KeyboardVoice";
+import Icon from "@material-ui/core/Icon";
+import SaveIcon from "@material-ui/icons/Save";
+import CreateIcon from "@material-ui/icons/Create";
+import CheckBoxIcon from "@mui/icons-material/CheckBox";
+import Dexie from "dexie";
+import { useLiveQuery } from "dexie-react-hooks";
+import EditIcon from "@mui/icons-material/Edit";
+
+const Note = ({ note, onClickEdit, onClickDelete }) => {
+  console.log(note)
+  return (
+    <TableRow className="note">
+      <TableCell align="left" color="red">{note}</TableCell>
+      <TableCell align="center">
+        <ButtonGroup color="primary" aria-label="outlined primary button group">
+          <Button name="Edit" backgroundColor="gold" onClick={onClickEdit} />
+          <Button
+            name="Del"
+            backgroundColor="tomato"
+            onClick={onClickDelete}
+          />
+        </ButtonGroup>
+      </TableCell>
+    </TableRow>
+  );
+};
+
+export default Note;

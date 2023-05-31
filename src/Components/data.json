@@ -1,0 +1,114 @@
+[{
+    "code": 58,
+    "title": "เฉลิมหานคร",
+    "line": "ดินแดง - ท่าเรือ",
+    "direction": "ดินแดง - ท่าเรือ",
+    "station_start": 1578,
+    "station_end": 1600,
+    "status": "waiting",
+    "linestation": [
+        {
+            "point": 1,
+            "type": "Main",
+            "STA": 1578,
+            "status": "waiting",
+            "path": [{
+                "name": "เสา",
+                "number": 3,
+                "broken": 0,
+                "status": "waiting"
+            },{
+                "name": "คานสั้น",
+                "number": 3,
+                "broken": 0,
+                "status": "waiting"
+            },{
+                "name": "คานยาว",
+                "number": 3,
+                "broken": 0,
+                "status": "waiting"
+            }]
+        },
+        {
+            "point": 2,
+            "type": "Main",
+            "STA": 1578,
+            "status": "waiting",
+            "path": [{
+                "name": "เสา",
+                "number": 3,
+                "broken": 0,
+                "status": "waiting"
+            },{
+                "name": "คานสั้น",
+                "number": 3,
+                "broken": 0,
+                "status": "waiting"
+            },{
+                "name": "คานยาว",
+                "number": 3,
+                "broken": 0,
+                "status": "waiting"
+            }]
+        }
+    ]
+},
+{
+    "code": 59,
+    "title": "เฉลิมหานคร2",
+    "line": "ดินแดง2 - ท่าเรือ2",
+    "direction": "ดินแดง2 - ท่าเรือ2",
+    "station_start": 15728,
+    "station_end": 16002,
+    "status": "waiting",
+    "linestation": [
+        {
+            "point": 1,
+            "type": "Main",
+            "STA": 1578,
+            "status": "waiting",
+            "path": [{
+                "name": "เสา",
+                "number": 3,
+                "broken": 0,
+                "status": "waiting"
+            },{
+                "name": "คานสั้น",
+                "number": 3,
+                "broken": 0,
+                "status": "waiting"
+            },{
+                "name": "คานยาว",
+                "number": 3,
+                "broken": 0,
+                "status": "waiting"
+            }]
+        },
+        {
+            "point": 2,
+            "type": "Main",
+            "STA": 1578,
+            "status": "waiting",
+            "path": [{
+                "name": "เสา",
+                "number": 3,
+                "broken": 0,
+                "status": "waiting"
+            },{
+                "name": "คานสั้น",
+                "number": 3,
+                "broken": 0,
+                "status": "waiting"
+            },{
+                "name": "คานยาว",
+                "number": 3,
+                "broken": 0,
+                "status": "waiting"
+            }]
+        }
+    ]
+}]
+
+
+
+

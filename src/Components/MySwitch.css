@@ -1,0 +1,88 @@
+/* src/components/MySwitch.css */
+.my-switch {
+    position: relative;
+    display: inline-flex;
+    width: 60px;
+    height: 32px;
+  }
+  
+  .my-switch input {
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider/track of the switch */
+  .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    background-color: #ccc;
+    transition: 0.4s;
+  }
+  
+  /* The thumb of the switch */
+  .slider:before {
+    position: absolute;
+    content: '';
+    height: 25px;
+    width: 25px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+  }
+  
+  /* Style the slider when the switch is ON (the checkbox is checked) */
+  .my-switch input:checked + .slider {
+    background-color: #4caf50;
+  }
+  
+  .my-switch input:checked + .slider:before {
+    -webkit-transform: translateX(25px);
+    -ms-transform: translateX(25px);
+    transform: translateX(25px);
+  }
+  
+  /* Rounded switch */
+  .slider.rounded {
+    border-radius: 32px;
+  }
+  
+  .slider.rounded:before {
+    border-radius: 50%;
+  }
+
+  /* KindaCode.com */
+/* src/App.css */
+.container {
+    width: 80%;
+    margin: 40px auto;
+  }
+  
+  .card {
+    margin: 30px 0;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.04);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .box {
+    margin: 30px 0;
+    width: 300px;
+    height: 100px;
+    background: orange;
+  }
+  
+  .secret {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+  }
